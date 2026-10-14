@@ -24,10 +24,12 @@
 
 初版机械臂：
 ![初版机械臂](https://github.com/Cryolite1002/CRTC_Starlink_TEAM/blob/main/docs/%E5%9B%BE%E7%89%87/%E5%88%9D%E7%89%88%E6%9C%BA%E6%A2%B0%E8%87%82.png)
+缩短小臂长度，修改底座孔尺寸。
 机械臂pro+底盘：
 ![机械臂+底盘](https://github.com/Cryolite1002/CRTC_Starlink_TEAM/blob/main/docs/%E5%9B%BE%E7%89%87/%E6%9C%BA%E6%A2%B0%E8%87%82%2B%E5%BA%95%E7%9B%98.png)
 ### (2) 携带功能
-
+本想用硬纸板结合热熔胶收集的，因为固定不牢放弃了。采用更可靠的3D建模做了两个筐，兼具收集和平衡负重的作用，为了不妨碍机械臂转动，筐内侧高60mm，外侧高75mm。
+![收集](https://github.com/Cryolite1002/CRTC_Starlink_TEAM/blob/main/docs/%E5%9B%BE%E7%89%87/%E6%94%B6%E9%9B%86.png)
 ### (3) 运动功能
 ### (4) 通信功能
 

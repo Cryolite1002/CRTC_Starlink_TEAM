@@ -42,7 +42,7 @@
 
 一开始，电机转速过快，误以为电机驱动少了PWM口。后通过学习，通过GPIO引脚（IN1/IN2）控制电机正反转；使用TIM2和TIM3的4个通道生成PWM信号，周期1ms，调节占空比控制转速。
 
-10.14这一天，我们的主板 __炸__ 了。。。。（排查认为是电机驱动的连接问题），所幸有备用的ESP32。在反复斗争后，mixly，她出现了！！作为一款面向初学者的图形化编程工具，她完美地支持了Python，后续的工作很简单，改CCR即可调速。（占空比=CCR/(ARR+1)）
+10.14这一天，我们的主板 __炸__ 了。。。。（排查认为是电机驱动的连接问题），所幸有备用的ESP32。在反复斗争后，mixly，她出现了！！作为一款面向初学者的图形化编程工具，她完美地支持了Python以及语言转换，后续的工作很简单，改CCR即可调速。（占空比=CCR/(ARR+1)）
 
 Mixly还是太好用了：
 ![代码实现](https://github.com/Cryolite1002/CRTC_Starlink_TEAM/blob/main/docs/%E5%9B%BE%E7%89%87/%E5%87%BD%E6%95%B0%E5%AE%9E%E7%8E%B0.png)
@@ -58,5 +58,7 @@ PS2蓝牙手柄控制。优点是有对应课程支持，答疑方便，操作�
 |servo_5	|my_1|	PAD←|	PAD→|	0–180|
 |servo_2|my_3|	×(BLUE)	|○(GREEN)|	0–180|
 |servo_4| my_4	|□(RED)	|△(PINK)	|0–90|
+
+![循环](https://github.com/Cryolite1002/CRTC_Starlink_TEAM/blob/main/docs/%E5%9B%BE%E7%89%87/%E5%BE%AA%E7%8E%AF.png)
 ## 尾声（10.19-）：
 在通过中期考核后……
